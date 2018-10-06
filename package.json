@@ -1,0 +1,12 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.html",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/styles.css -w",
+    "compile:sass-auth" : "node-sass sass/login.scss css/auth.css -w"
+  },
+  "author": "Joe",
+  "license": "ISC"
+}
